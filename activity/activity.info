@@ -1,0 +1,9 @@
+[Activity]
+name = Produce Puzzle
+bundle_id = org.laptop.ProducePuzzle
+class = activity.ProducePuzzle
+icon = activity-producepuzzle
+activity_version = 3
+host_version = 1
+show_launcher = yes
+license = GPLv2+
