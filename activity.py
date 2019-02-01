@@ -90,7 +90,7 @@ class ProducePuzzle(activity.Activity):
             GLib.SpawnFlags.DO_NOT_REAP_CHILD,
             None,
             None,)
-    def on_child_exit(self, widget):
+    def on_child_exit(self, widget, status=None):
         """This method is invoked when the user's script exits."""
         if not DEBUG_TERMINAL:
             import sys
