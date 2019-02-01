@@ -1,7 +1,7 @@
 [Activity]
 name = Produce Puzzle
 bundle_id = org.laptop.ProducePuzzle
-class = activity.ProducePuzzle
+exec = sugar-activity activity.ProducePuzzle
 icon = activity-producepuzzle
 activity_version = 4
 host_version = 1
