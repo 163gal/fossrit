@@ -1,4 +1,5 @@
-RUN INSTRUCTIONS
+Run Instructions
+================
 
 To run the game, you must have pygame installed.  The game also requires the
 fortune engine installed.  You may find it in the fortune hunter wiki:
@@ -8,7 +9,9 @@ To start the game in terminal run the command "python PPActivity.py"
 To start it on an xo, after installing just click the Produce Puzzle Icon which
 will run the activity.py file.
 
-GAME PLAY INSTRUCTIONS
+Game Play Instructions
+======================
+
 To begin, click on the Puzzle Produce icon on your XO.
 
 The game will start immediately.
