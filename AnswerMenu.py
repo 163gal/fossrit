@@ -49,7 +49,7 @@ class AnswerMenuHolder( GameEngineElement ):
                         [_("E"), lambda: self.menu_called('enter')],
             ]
         else:
-            print "Invalid Menu", id
+            print("Invalid Menu", id)
             return
         self.menu = AnswerMenu(menu_options)
         
