@@ -42,7 +42,7 @@ def menu_called(id, menu):
         ge.remove_object('menu')
         ge.add_object('game', PPGame() )
     else:
-        print "MENU CALLED %s" % id
+        print("MENU CALLED %s" % id)
 
 # Build menu and add to engine.  Then show menu
 menu_screen()

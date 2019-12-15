@@ -68,7 +68,7 @@ class MainMenuHolder( GameEngineElement ):
                         ["Return to Title", lambda: self.show_menu("title"), "Return to the title menu."]
             ]
         else:
-            print "Invalid Menu", id
+            print("Invalid Menu", id)
             return
         self.menu = MainMenu(menu_options, self.width, self.height)
 
